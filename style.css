@@ -48,17 +48,6 @@ button {
     margin-right: 10px;
 }
 
-.become-creator {
-    background-color: #333;
-    color: white;
-}
-
-/* Info pengguna */
-.user-info {
-    margin-top: 20px;
-    font-size: 0.9em;
-}
-
 .green-dot, .gray-dot {
     width: 10px;
     height: 10px;

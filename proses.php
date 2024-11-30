@@ -18,9 +18,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Menggunakan API Pastebin untuk memposting kode biner
     $api_dev_key = 'cArUHRYUoeEps55NXKuIw9xWibcx7c31';
     $api_paste_code = urlencode($kode_biner);
-    $api_paste_private = '1';
-    $api_paste_name = 'Konversi Teks ke Biner';
-    $api_paste_expire_date = '10M';
+    $api_paste_private = '';
+    $api_paste_name = 'Converted';
+    $api_paste_expire_date = '';
     $api_paste_format = 'text';
     $api_user_key = ''; // Jika Anda memiliki api_user_key, tambahkan di sini
 
